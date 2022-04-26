@@ -1,0 +1,17 @@
+body {
+    background: #C4CF19;
+    color: white;
+    line-height: 1.7;
+    background-image: url(./media/binding-dark.png);
+  }
+
+  .app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #C4CF19;
+    color: white;
+    line-height: 1.7;
+    background-image: url(./media/binding-dark.png);
+  }

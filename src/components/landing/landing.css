@@ -1,0 +1,64 @@
+header {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+
+.landing_container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.header-title {
+  font-size: 8rem;
+  color: #2c2c2c;
+}
+
+.header-title2 {
+  font-size: 6rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .landing_container {
+    position: relative;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .header {
+    height: 68vh;
+  }
+
+  .header-title {
+    font-size: 6rem;
+    color: #2c2c2c;
+  }
+
+  .header-title2 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .landing_container {
+    position: relative;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .header {
+    height: 100vh;
+  }
+
+  .header-title {
+    font-size: 4rem;
+    color: #2c2c2c;
+  }
+
+  .header-title2 {
+    font-size: 2rem;
+  }
+}

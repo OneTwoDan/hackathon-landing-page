@@ -10,3 +10,20 @@
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
 }
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: #C4CF19;
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 400ms ease;
+  background-color: #2C2C2C;
+}
+
+.btn:hover {
+  background: white;
+  color: #C4CF19;
+  border-color: transparent;
+}
