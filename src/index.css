@@ -11,6 +11,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .btn {
   width: max-content;
   display: inline-block;

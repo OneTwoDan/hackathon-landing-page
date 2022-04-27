@@ -1,0 +1,19 @@
+.information__container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4rem;
+  gap: 3rem;
+  padding-bottom: 5rem;
+}
+
+h3 {
+  text-align: center;
+}
+
+.information_cards {
+  text-align: justify;
+}
+
+.when-is {
+  margin: 0 auto;
+}

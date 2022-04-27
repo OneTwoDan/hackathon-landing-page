@@ -1,7 +1,7 @@
 import React from "react";
 import { FaHome } from "react-icons/fa";
-import { FaUser } from "react-icons/fa";
-import { FaBook } from "react-icons/fa";
+import { HiInformationCircle } from "react-icons/hi";
+import { GiTrophy } from "react-icons/gi";
 import { useState } from "react";
 
 import "./nav.css";
@@ -22,14 +22,14 @@ const Nav = () => {
         onClick={() => setActiveNav("#information")}
         className={activeNav === "#information" ? "active" : ""}
       >
-        <FaUser />
+        <HiInformationCircle />
       </a>
       <a
         href="#sponsors"
         onClick={() => setActiveNav("#sponsors")}
         className={activeNav === "#sponsors" ? "active" : ""}
       >
-        <FaBook />
+        <GiTrophy />
       </a>
     </nav>
   );
